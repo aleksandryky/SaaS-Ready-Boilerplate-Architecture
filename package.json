@@ -1,0 +1,35 @@
+{
+  "name": "saas-ready-boilerplate-architecture",
+  "version": "1.0.0",
+  "description": "This repository captures an **opinionated, production-ready architecture template for B2B/B2C SaaS**. It is designed so you can plug in your own domain and start building features instead of infrastructure.",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aleksandryky/SaaS-Ready-Boilerplate-Architecture.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/aleksandryky/SaaS-Ready-Boilerplate-Architecture/issues"
+  },
+  "homepage": "https://github.com/aleksandryky/SaaS-Ready-Boilerplate-Architecture#readme",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.6",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "helmet": "^8.1.0",
+    "jsonwebtoken": "^9.0.3",
+    "morgan": "^1.10.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
